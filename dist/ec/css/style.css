@@ -1,0 +1,83 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2rem !important;
+}
+/* section */
+
+
+.l-section__inner{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 8px;
+
+}
+
+
+/* header */
+.c-header{
+    border-bottom: 2px solid;
+}
+.c-header__logo{
+    font-weight: bold;
+}
+.c-header__inner{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    padding: 8px;
+}
+.c-header__user{
+    margin-left: auto;
+}
+
+.p-simpleBoxs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.p-simpleBoxs .c-simpleBox{
+    min-width: 300px;
+    margin: 0 10px 0 10px;
+}
+
+.p-simpleBoxs .c-simpleBox:first-child{
+    margin-left: 0;
+}
+.p-simpleBoxs .c-simpleBox:last-child{
+    margin-right: 0;
+}
+
+.c-simpleBox{
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 16px 4px;
+    text-decoration: none;
+    color: #000;
+}
+
+.c-simpleBox:hover{
+    opacity: 0.6;
+}
+
+.c-simpleBox__img img{
+    width: 100px;
+}
+
+.page-shop .c-simpleBox:hover{
+    opacity: 1;
+}
+
+
+

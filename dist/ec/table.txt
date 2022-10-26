@@ -1,0 +1,6 @@
+table 
+
+id int 
+name char
+value int 
+price int 
